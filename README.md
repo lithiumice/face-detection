@@ -5,7 +5,8 @@
 S3FD face detector can be initialize with the following code:
 
 ```python
-torch.hub.load("lithiumice/face-detection", "S3FD")
+import torch
+detector = torch.hub.load("lithiumice/face-detection", "S3FD")
 ```
 
 # Credit
